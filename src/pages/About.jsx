@@ -1,4 +1,5 @@
 import FadeIn from "../components/FadeIn";
+import din from "../assets/din.jpg";
 
 export const About = () => {
   return (
@@ -25,7 +26,7 @@ export const About = () => {
               {/* Picture Container */}
               <div className="relative rounded-3xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900">
                 <img
-                  src="src/assets/din.jpg"
+                  src={din}   
                   alt="Profile"
                   className="w-full h-112.5 sm:h-130 object-cover"
                 />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import logo from "../assets/react.svg";
 // 1. ទទួល Props (isDarkMode និង setIsDarkMode) ពី App.jsx
 export const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const [activeTab, setActiveTab] = useState("Home");
@@ -29,12 +29,11 @@ export const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="src/assets/react.svg" className="h-7" alt="Logo" />
-          <span className="self-center text-xl font-semibold whitespace-nowrap">
-            Portfolio
-          </span>
-        </a>
-
+  <img src={logo} className="h-7" alt="Logo" />
+  <span className="self-center text-xl font-semibold whitespace-nowrap">
+    Portfolio
+  </span>
+</a>
         {/* Buttons Group (Toggle Mode + Mobile Hamburger) */}
         <div className="flex items-center md:order-2 space-x-2">
           {/* Theme Toggle Button */}

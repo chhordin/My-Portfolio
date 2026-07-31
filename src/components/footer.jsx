@@ -1,5 +1,4 @@
-
-
+import logo from "../assets/react.svg";
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -42,11 +41,11 @@ export const Footer = () => {
           {/* Brand Info */}
           <div className="text-center md:text-left">
             <a href="#home" className="flex items-center justify-center md:justify-start space-x-3 mb-2">
-              <img src="src/assets/react.svg" className="h-6" alt="Logo" />
-              <span className="text-xl font-bold bg-linear-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                Chheut Chhordin
-              </span>
-            </a>
+  <img src={logo} className="h-6" alt="Logo" />
+  <span className="text-xl font-bold bg-linear-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+    Chheut Chhordin
+  </span>
+</a>
             <p className="text-sm text-gray-400">
               Frontend Developer focused on building modern web applications.
             </p>
