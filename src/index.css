@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@plugin "flowbite/plugin";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
