@@ -3,10 +3,9 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Myskill } from "./pages/Myskill";
-
 import { Contact } from "./pages/Contact";
 import { Footer } from "./components/footer";
-import { TodoList } from "./pages/TodoList";
+import { Project } from "./pages/Project";
 
 
 
@@ -36,14 +35,18 @@ const App = () => {
         <section id="skill" className="py-20">
           <Myskill />
         </section>
-        <section id="practice" className="py-20">
-          <TodoList />
+        <section  id="project" className="py-20">
+           <Project />
         </section>
         
+        {/* <section id="practice" className="py-20">
+          <TodoList />
+        </section> */}
         
         <section id="contact" className="py-20">
           <Contact />
         </section>
+      
        <Footer />
        
       </main>

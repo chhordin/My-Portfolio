@@ -66,7 +66,7 @@ ${formData.message}
 
   return (
     <section className="py-16 min-h-screen flex items-center justify-center">
-      <div className="max-w-6xl mx-auto px-6 w-full">
+      <div className="max-w-6xl mx-auto px-6 w-full ">
         
         {/* Section Header */}
         <FadeIn>
