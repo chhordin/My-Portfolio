@@ -15,7 +15,7 @@ const projects = [
     title:"Ecommerce Website",
     description:"Website Simple ការបញ្ជទិញអីវ៉ានតាមអនឡាញ​​ មាន Products, Cart, Services Responsive Mobiile,Taplet and Desktop, Search Prodcut and Category. ",
     image:"/ecommerce.png",
-    liveUrl:"ecommerce-website-chi-lac.vercel.app",
+    liveUrl:"https://ecommerce-website-chi-lac.vercel.app/",
     githubUrl:"https://github.com/chhordin/ecommerce-website",
     tech:["React","Vite", "Tailwind Css","Fake Store API"],
     featured:true
