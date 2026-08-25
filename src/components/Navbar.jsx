@@ -1,10 +1,8 @@
 import { useState } from "react";
 import logo from "../assets/react.svg";
-
-// Import icons
 import { HiHome, HiUser, HiCode, HiFolder, HiMail } from "react-icons/hi";
-import { HiSun, HiMoon } from "react-icons/hi2"; // សម្រាប់ Theme Toggle
-import { HiMenu, HiX } from "react-icons/hi"; // សម្រាប់ Hamburger
+import { HiSun, HiMoon } from "react-icons/hi2"; 
+import { HiMenu, HiX } from "react-icons/hi"; 
 
 export const Navbar = ({ isDarkMode, setIsDarkMode }) => {
   const [activeTab, setActiveTab] = useState("Home");
