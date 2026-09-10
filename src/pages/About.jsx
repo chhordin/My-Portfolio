@@ -97,7 +97,7 @@ export const About = () => {
 
               {/* Paragraph Description */}
               <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-                 I am a second-year Information Technology student at Asia Euro University with a strong interest in
+                 I am a Third-year Information Technology student at Asia Euro University with a strong interest in
                 Frontend Developer focused on building dynamic,
                 user-centric web applications. I love bridging functional logic with
                 clean design—whether that's architecting reactive Vue components,
